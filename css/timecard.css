@@ -143,7 +143,7 @@ button {
   height: 80px;
   border-radius: 5px;
   border: 1px rgb(92, 92, 235) solid;
-  font-size: 2.1rem;
+  font-size: 2rem;
   background-color: rgb(92,92,235);
   /* color: rgb(92,92,235); */
   color: #fff;
@@ -453,3 +453,12 @@ nav ul li:hover {
   color: #fff;
 }
 
+/* レスポンシブ ---------------------------------- */
+@media(max-width: 600px){
+
+  button {
+    font-size: 1.5rem;
+  }
+  
+
+}
